@@ -58,8 +58,7 @@ public class ParseMeteoriteFile {
         String str;
         ++errorLineNumber; ++countLine;
         while (scanner.hasNext())
-            if (!(str = scanner.nextLine()
-                               .trim()).isEmpty()) return str;
+            if (!(str = scanner.nextLine().trim()).isEmpty()) return str;
         throw new FileEnded();
     }
 }

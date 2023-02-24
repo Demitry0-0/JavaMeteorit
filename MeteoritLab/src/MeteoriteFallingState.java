@@ -2,10 +2,10 @@ public enum MeteoriteFallingState {
     fell, found;
 
     public boolean isFell() {
-        return this == MeteoriteFallingState.fell;
+        return this == fell;
     }
 
     public boolean isFound() {
-        return this == MeteoriteFallingState.found;
+        return this == found;
     }
 }
